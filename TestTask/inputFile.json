@@ -1,0 +1,52 @@
+{
+	"testcase1":{
+		"description":"Search for a keyword with no filters. Search Keyword: Cheap Thrills",
+		"searchTerm": "cheap+thrills",
+		"country": "",
+		"media": "",
+		"limit": ""		
+	},
+	"testcase2":{
+		"description":"Search for a keyword with limit set to 10. Search Keyword: Cheap Thrills, limit: 10",
+		"searchTerm": "cheap+thrills",
+		"country": "",
+		"media": "",
+		"limit": "10"		
+	},
+	"testcase3":{
+		"description":"Search for a keyword. Search Keyword: Cheap Thrills and media: movie",
+		"searchTerm": "cheap+thrills",
+		"country": "",
+		"media": "movie",
+		"limit": ""		
+	},
+	"testcase4":{
+		"description":"Search for a keyword. Search Keyword: 999999, country code: IN",
+		"searchTerm": "999999",
+		"country": "IN",
+		"media": "all",
+		"limit": "25"		
+	},
+	"testcase5":{
+		"description":"Search for a keyword with limit set to 10. Search Keyword: 9999999999999999",
+		"searchTerm": "9999999999999999",
+		"country": "IN",
+		"media": "music",
+		"limit": "25"
+	},
+	"testcase6":{
+		"description":"Search for a keyword. Search keyword: Cheap Thrills, Media: video, limit: 5, country: US",
+		"searchTerm": "cheap+thrills",
+		"country": "",
+		"media": "musicVideo",
+		"limit": "5"
+	},
+	"testcase7":{
+		"description":"Search for a keyword. Search Keyword: Cheap Thrills, limit: 250",
+		"searchTerm": "cheap+thrills",
+		"country": "US",
+		"media": "",
+		"limit": "250"
+			
+	}
+}
